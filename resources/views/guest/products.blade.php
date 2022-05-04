@@ -1,5 +1,12 @@
 @extends('layout.base')
 
 @section('main-content')
-    <h1>sezione main</h1>
+    <main>
+        <div class="content-wrapper">
+            <div class="card-wrapper">
+                <img src="" alt="">
+                
+            </div>
+        </div>
+    </main>
 @endsection
