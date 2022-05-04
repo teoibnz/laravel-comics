@@ -11,5 +11,3 @@
         </div>
     </main>
 @endsection
-
-@dump($comics)
