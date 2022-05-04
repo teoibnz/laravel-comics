@@ -19,5 +19,6 @@ Route::get('/', function () {
 
 Route::get('/products', function () {
     $comics = config('comics');
-    return view('guest.products', ['comics' => $comics]);
+    $imagesNav = config('imagesNav');
+    return view('guest.products', ['comics' => $comics], ['imagesNav' => $imagesNav]);
 })->name('guest-products');
