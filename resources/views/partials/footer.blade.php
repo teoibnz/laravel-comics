@@ -3,7 +3,7 @@
         <div class="footer-wrapper">
             <div class="list-wrapper">
                 <div>
-                    <ul>DC COMICS
+                    <ul> <h2>DC COMICS</h2>
                         <li>Characters</li>
                         <li>Comics</li>
                         <li>Movies</li>
@@ -12,13 +12,13 @@
                         <li>Videos</li>
                         <li>News</li>
                     </ul>
-                    <ul>SHOP
+                    <ul><h2>SHOP</h2>
                         <li>Shop DC</li>
                         <li>Shop DC Collectibles</li>
                     </ul>
                 </div>
                 <div>
-                    <ul>DC
+                    <ul> <h2>DC</h2>
                         <li>Terms Of Use</li>
                         <li> Privacy policy (New)</li>
                         <li>Ad Choise</li>
@@ -33,7 +33,7 @@
                     </ul>
                 </div>
                 <div>
-                    <ul> SITES
+                    <ul> <h2>SITES</h2>
                         <li>DC</li>
                         <li>MAD Magazine</li>
                         <li>DC Kids</li>
