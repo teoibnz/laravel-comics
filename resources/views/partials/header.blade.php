@@ -7,7 +7,9 @@
             <div class="navbar-container">
                 <ul class="my-navbar">
                     <li class="navbar-items">CHARACACTERS</li>
-                    <li class="navbar-items">COMICS</li>
+                    <li class="navbar-items">
+                        <a href="{{'products'}} "> COMICS</a> 
+                    </li>
                     <li class="navbar-items">MOVIES</li>
                     <li class="navbar-items">TV</li>
                     <li class="navbar-items">GAMES</li>
