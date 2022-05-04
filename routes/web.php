@@ -18,5 +18,6 @@ Route::get('/', function () {
 })->name('layout-base');
 
 Route::get('/products', function () {
-    return view('guest.products');
+    $comics = config('comics');
+    return view('guest.products', ['comics' => $comics]);
 })->name('guest-products');
