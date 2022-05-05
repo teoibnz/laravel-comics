@@ -27,7 +27,7 @@ Route::get('/products', function () {
 Route::get('/products/{id}', function ($id) {
     $comic = config('comics');
     if(is_numeric($id) && $id >= 0 && $id < count($comic)){
-        return view('guest.singleProducts', ['comics' => $comic[$id]]);
+        return view('guest.singleProducts', ['comic' => $comic[$id]]);
     }else {
         abort(404);
     };

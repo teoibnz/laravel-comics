@@ -163,3 +163,33 @@ main {
   height: 50%;
   margin-right: 1rem;
 }
+
+.singleproduct-wrapper {
+  width: 100%;
+  padding-top: 2rem;
+  background-color: white;
+  justify-content: center;
+  border-bottom: 1px solid lightgrey;
+}
+.singleproduct-wrapper .comic-wrapper {
+  margin-bottom: 2rem;
+  width: 70%;
+}
+.singleproduct-wrapper .comic-wrapper p {
+  width: 50%;
+}
+.singleproduct-wrapper .comic-wrapper .info-box {
+  margin: 1rem 0;
+}
+.singleproduct-wrapper .comic-wrapper .info-box .info-item {
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+  background-color: green;
+  height: 40px;
+  color: white;
+}
+
+.d-flex {
+  display: flex;
+}

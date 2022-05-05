@@ -2,13 +2,29 @@
 
 @section('main-content')
     <div>    
-        <div class="content-wrapper">
+        <div class="singleproduct-wrapper d-flex">
+            <div class="comic-wrapper">
+                <h2>{{$comic["title"]}} </h2>
             
-            @foreach($comics as $comic => $index)
-            <div class="card-wrapper">
-                <h4>{{comics["title"]}} </h4>
+                <div class="info-box d-flex">
+                    <div class="d-flex info-item">
+                        <span>
+                            U.S. Price: {{$comic["price"]}}
+                        </span>
+                        <span>
+                            AVAILABLE
+                        </span>
+                        <span>
+                        Check Availability
+                        </span>
+                    </div>
+                </div>
+                <p>
+                    {{$comic["description"]}}
+                </p>
             </div>
-            @endforeach
+            
         </div>
+        
     </div>
 @endsection
