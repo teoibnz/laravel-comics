@@ -7,7 +7,7 @@
             <div class="card-wrapper">
                 <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
                 <h4>
-                    <a href=" {{url("products/$index")}}">    
+                    <a href=" {{route("guest-singleProducts" , ["id" => $index] )}}">    
                     {{$comic['title']}}
                     </a>
                 </h4>
