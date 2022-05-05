@@ -23,8 +23,13 @@
                     {{$comic["description"]}}
                 </p>
             </div>
-            
         </div>
-        
+        <div>
+            <div>
+                <span>
+                    Art by:
+                </span>
+            </div>
+        </div>
     </div>
 @endsection

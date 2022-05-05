@@ -3,10 +3,14 @@
 @section('main-content')
     <main>
         <div class="content-wrapper">
-            @foreach($comics as $comic)
+            @foreach($comics as $index => $comic)
             <div class="card-wrapper">
                 <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
-                <h4>{{$comic['title']}}</h4>
+                <h4>
+                    <a href=" {{url("products/$index")}}">    
+                    {{$comic['title']}}
+                    </a>
+                </h4>
             </div>
             @endforeach
         </div>
