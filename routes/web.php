@@ -22,3 +22,13 @@ Route::get('/products', function () {
     $imagesNav = config('imagesNav');
     return view('guest.products', ['comics' => $comics], ['imagesNav' => $imagesNav]);
 })->name('guest-products');
+
+
+Route::get('/products/{id}', function ($id) {
+    $comic = config('comics');
+    if(is_numeric($id) && $id >= 0 && $id < count($comic)){
+        return view('guest.singleProducts', ['comics' => $comic[$id]]);
+    }else {
+        abort(404);
+    };
+})->name('guest-singleProducts');
